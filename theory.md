@@ -56,9 +56,11 @@ Regression is a part of supervised ML. Regression models investigate the relatio
 Here are some common regression models
 
 - *Linear Regression* establishes a linear relationship between target and predictor (s). It predicts a numeric value and has a shape of a straight line.
-- *Polynomial Regression* has a regression equation with the power of independent variable more than 1. It is a curve that fits into the data points.
+- *Polynomial Regression* has a regression equation with the power of independent variable more than 1. It is a curve that fits into the data points. Aznor: Can also be considered to be linear. Linear means linear to the parameters.
 - *Ridge Regression* helps when predictors are highly correlated (multicollinearity problem). It penalizes the squares of regression coefficients but doesn’t allow the coefficients to reach zeros (uses L2 regularization).
 - *Lasso Regression* penalizes the absolute values of regression coefficients and allows some of the coefficients to reach absolute zero (thereby allowing feature selection).
+
+Aznor: Regression is used when the target is a numerical value.
 
 <br/>
 
